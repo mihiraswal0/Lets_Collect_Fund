@@ -4,8 +4,8 @@ pragma solidity ^0.8.9;
 contract CrowdFunding {
     //object  for each campagin          
   struct Campaign{
-    address owner;
-    string title;
+    // address owner;
+    // string title;
      string description;
     uint256 target;
     uint256 deadline;
